@@ -6,8 +6,25 @@ Este repositorio contiene un conjunto de **pruebas automatizadas de extremo a ex
 
 ## 🗂️ Estructura del Proyecto
 
-playwright-first-project/ ├── tests/ # 📁 Carpeta principal donde se ubican los archivos de prueba │ └── example.spec.ts # 🧪 Clase con pruebas básicas (abrir página, validar título, hacer clic) ├── node_modules/ # 📦 Dependencias del proyecto (generado automáticamente) ├── playwright.config.ts # ⚙️ Configuración general de Playwright ├── package.json # 📜 Configuración del proyecto y scripts ├── package-lock.json # 📜 Archivo de bloqueo de versiones ├── .gitignore # 📄 Archivos/carpetas ignorados por Git ├── allure-results/ # 📁 Resultados para reportes con Allure ├── playwright-report/ # 📁 Reportes HTML generados por Playwright ├── test-results/ # 📁 Resultados crudos de las ejecuciones
+playwright-first-project/                   # Proyecto de pruebas automatizadas con Playwright y TypeScript
+├── allure-results/                         # Resultados generados por Allure tras ejecución de pruebas
+│
+├── node_modules/                           # Dependencias instaladas con npm
+│
+├── playwright-report/                      # Reporte HTML autogenerado por Playwright tras correr pruebas
+│
+├── test-results/                           # Carpeta con resultados de ejecución de las pruebas
+│
+├── tests/                                  # Carpeta principal para casos de prueba
+│   └── example.spec.ts                     # Prueba de ejemplo con navegación y aserción
+│
+├── .gitignore                              # Archivos y carpetas ignorados por Git
+├── package.json                            # Declaración de scripts, dependencias y configuración general
+├── package-lock.json                       # Registro de versiones exactas de dependencias instaladas
+├── playwright.config.ts                    # Archivo principal de configuración de Playwright
+└── README.md                               # Documentación principal del proyecto
 
+---
 
 ---
 
@@ -22,6 +39,17 @@ Contiene una suite con dos pruebas:
 
 2. **Navegar al enlace Get Started**  
    Simula un clic en el enlace y valida que se muestre un encabezado con el texto "Installation".
+
+---
+
+---
+
+## 📦 Tecnologías Utilizadas
+
+- [Playwright](https://playwright.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/)
+- [Allure Reporter (opcional)](https://github.com/allure-framework/allure-js)
 
 ---
 
@@ -42,24 +70,17 @@ npx playwright show-report
 ```
 ---
 
-🌐 Pruebas Multi-Navegador
+### 🌐 Pruebas Multi-Navegador
 Las pruebas se ejecutan por defecto en Chromium, Firefox y WebKit, lo que permite validar la compatibilidad en distintos navegadores.
 
-📊 Reportes
+### 📊 Reportes
 HTML Report generado automáticamente en playwright-report/
-
 Compatible con Allure para reportes más detallados (requiere configuración adicional)
 
-🧪 Herramientas Utilizadas
-Playwright
+---
 
-TypeScript
-
-Node.js
-
-Allure (opcional para reportes avanzados)
-
-👨‍💻 Autor
-John Muñoz
+### 👨‍💻 Autor
+Proyecto creado por John Muñoz como parte de su aprendizaje en automatización de pruebas con Playwright.
+Puedes seguir el avance en redes usando #AprendiendoPlaywright.
 
 ---
