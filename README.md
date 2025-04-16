@@ -54,7 +54,7 @@ Contiene una suite con dos pruebas básicas:
 ```bash
 npm install
 ```
-2.▶️ Ejecuta las pruebas:
+2. ▶️ Ejecuta las pruebas:
 ```bash
 npx playwright test
 ```
