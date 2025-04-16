@@ -6,23 +6,7 @@ Este repositorio contiene un conjunto de **pruebas automatizadas de extremo a ex
 
 ## 🗂️ Estructura del Proyecto
 
-playwright-first-project/                   # Proyecto de pruebas automatizadas con Playwright y TypeScript
-├── allure-results/                         # Resultados generados por Allure tras ejecución de pruebas
-│
-├── node_modules/                           # Dependencias instaladas con npm
-│
-├── playwright-report/                      # Reporte HTML autogenerado por Playwright tras correr pruebas
-│
-├── test-results/                           # Carpeta con resultados de ejecución de las pruebas
-│
-├── tests/                                  # Carpeta principal para casos de prueba
-│   └── example.spec.ts                     # Prueba de ejemplo con navegación y aserción
-│
-├── .gitignore                              # Archivos y carpetas ignorados por Git
-├── package.json                            # Declaración de scripts, dependencias y configuración general
-├── package-lock.json                       # Registro de versiones exactas de dependencias instaladas
-├── playwright.config.ts                    # Archivo principal de configuración de Playwright
-└── README.md                               # Documentación principal del proyecto
+playwright-first-project/ # Proyecto de pruebas automatizadas con Playwright y TypeScript ├── allure-results/ # Resultados generados por Allure tras ejecución de pruebas ├── node_modules/ # Dependencias instaladas con npm ├── playwright-report/ # Reporte HTML autogenerado por Playwright tras correr pruebas ├── test-results/ # Carpeta con resultados de ejecución de las pruebas ├── tests/ # Carpeta principal para casos de prueba │ └── example.spec.ts # Prueba de ejemplo con navegación y aserción ├── .gitignore # Archivos y carpetas ignorados por Git ├── package.json # Declaración de scripts, dependencias y configuración general ├── package-lock.json # Registro de versiones exactas de dependencias instaladas ├── playwright.config.ts # Archivo principal de configuración de Playwright └── README.md # Documentación principal del proyecto             # Documentación principal del proyecto
 
 ---
 
