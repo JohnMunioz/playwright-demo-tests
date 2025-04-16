@@ -1,7 +1,7 @@
 # 🎭 Proyecto de Pruebas Automatizadas con Playwright
 
-Este repositorio contiene un conjunto de **pruebas automatizadas de extremo a extremo (E2E)** utilizando [**Playwright**](https://playwright.dev/) con **TypeScript**.  
-El objetivo es aprender y demostrar cómo automatizar interacciones básicas con una página web.
+
+Este repositorio contiene un conjunto de **pruebas automatizadas de extremo a extremo (E2E)** utilizando [**Playwright**](https://playwright.dev/) con **TypeScript**. El objetivo es aprender y demostrar cómo automatizar interacciones básicas con una página web.
 
 ---
 
@@ -54,7 +54,6 @@ Contiene una suite con dos pruebas básicas:
 ```bash
 npm install
 ```
-
 2.▶️ Ejecuta las pruebas:
 ```bash
 npx playwright test
@@ -65,6 +64,7 @@ npx playwright show-report
 ```
 ---
 
+
 ## 🌐 Pruebas Multi-Navegador
 Playwright permite ejecutar pruebas en múltiples navegadores:
 
@@ -74,16 +74,20 @@ Playwright permite ejecutar pruebas en múltiples navegadores:
 
 Esto ayuda a garantizar que tu aplicación sea compatible en todos los entornos.
 
-## 📊 Reportes
+---
+
+### 📊 Reportes
 
 ✔️ HTML Report: generado automáticamente en playwright-report/
+
 ✔️ Allure Report: compatible para reportes más detallados (requiere configuración adicional)
 
 ---
 
-## 👨‍💻 Autor
+### 👨‍💻 Autor
 Proyecto creado por John Muñoz como parte de su aprendizaje en automatización de pruebas con Playwright.
 Puedes seguir el avance en redes usando #AprendiendoPlaywright.
 
 ✨ ¡Gracias por visitar este repositorio! Si te fue útil, considera darle ⭐️ en GitHub.
+
 ---
